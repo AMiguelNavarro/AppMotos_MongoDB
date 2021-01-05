@@ -1,0 +1,6 @@
+com\svalero\aplicacion\controladores\AppControlador.class
+com\svalero\aplicacion\clases\Moto.class
+com\svalero\aplicacion\utilidades\R.class
+com\svalero\aplicacion\modelos\MotoDAO.class
+com\svalero\aplicacion\App.class
+com\svalero\aplicacion\utilidades\Alertas.class

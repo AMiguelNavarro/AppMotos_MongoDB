@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="695.0" prefWidth="423.0">
+         <children>
+            <Button fx:id="btNueva" layoutX="23.0" layoutY="241.0" mnemonicParsing="false" onAction="#nuevaMoto" text="Nueva" />
+            <Button fx:id="btEliminar" layoutX="350.0" layoutY="241.0" mnemonicParsing="false" onAction="#eliminarMoto" text="Eliminar" />
+            <Button fx:id="btGuardar" layoutX="137.0" layoutY="241.0" mnemonicParsing="false" onAction="#guardarMoto" text="Guadar" />
+            <Button fx:id="btModificar" layoutX="205.0" layoutY="241.0" mnemonicParsing="false" onAction="#modificarMoto" text="Modificar" />
+            <Button fx:id="btCancelar" layoutX="137.0" layoutY="271.0" mnemonicParsing="false" onAction="#cancelar" text="Cancelar" />
+            <TableView fx:id="tvMotos" layoutY="324.0" prefHeight="304.0" prefWidth="423.0" />
+            <TextField fx:id="tfMatricula" layoutX="187.0" layoutY="33.0" />
+            <TextField fx:id="tfModelo" layoutX="187.0" layoutY="99.0" />
+            <TextField fx:id="tfMarca" layoutX="187.0" layoutY="67.0" />
+            <Label layoutX="109.0" layoutY="37.0" text="Matrícula" />
+            <Label layoutX="109.0" layoutY="68.0" text="Marca" />
+            <Label layoutX="109.0" layoutY="100.0" text="Modelo" />
+            <Label layoutX="109.0" layoutY="136.0" text="Tipo" />
+            <ComboBox fx:id="cbTipo" layoutX="187.0" layoutY="132.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
